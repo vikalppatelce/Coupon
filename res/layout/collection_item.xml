@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@drawable/redesign_shape_card"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/coll_img_coupon"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.30"
+        android:gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/coll_layout_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.030"
+        android:layout_marginLeft="2dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/coll_desc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:text="Flat 40% + extraFlat 40% + extraFlat 40% + extraFlat 40% + extra" />
+        <TextView
+            android:id="@+id/coll_desc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:text="Flat 40% + extraFlat 40% + extraFlat 40% + extraFlat 40% + extra" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/coll_layout_succ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.030"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/coll_succ_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textColor="#93AC2F"
+            android:text="72%" />
+
+        <TextView
+            android:id="@+id/coll_succ_2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:textColor="#93AC2F"
+            android:textSize="10sp"
+            android:text="SUCCESS" />
+    </LinearLayout>
+
+    
+</LinearLayout>

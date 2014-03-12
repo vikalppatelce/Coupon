@@ -1,0 +1,27 @@
+{
+  "status": {
+    "rcode": 200,
+    "message": "OK"
+  },
+  "data": {
+    "CategoryName": "Fashion",
+    "URLKeyword": "Fashion",
+    "Coupons": [
+      {
+        "CouponID": "66060",
+        "CouponCode": null
+      },
+      {
+        "CouponID": "66616",
+        "CouponCode": "EXTRA30"
+      }
+    ],
+    "Count": [
+      {
+        "0": "177",
+        "counter": "177"
+      }
+    ]
+  },
+  "hash": "86b0052d6a7ba72b60badb188b1d1323d950471b"
+}
